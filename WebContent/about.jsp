@@ -4,7 +4,7 @@
 <mt:template title="Home page">
 	<jsp:attribute name="content">
 		<div class="container text-center">
-			<h1>Online Auction System</h1>
+			<h1>About us</h1>
 		</div>
 	</jsp:attribute>
 </mt:template>
