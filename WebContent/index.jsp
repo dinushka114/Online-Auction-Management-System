@@ -1,10 +1,17 @@
-<%@ page language="java" contentType="text/html charset=ISO-8859-1" 
-	pageEncoding="ISO-8859-1"%>
-<%@ taglib prefix="mt" tagdir="/WEB-INF/tags" %>
-<mt:template title="Home page">
-	<jsp:attribute name="content">
-		<div class="container text-center">
-			<h1>Online Auction System</h1>
-		</div>
-	</jsp:attribute>
-</mt:template>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<%@ include file="includes/meta.jsp" %> 
+<title>${title}</title>
+</head>
+<body>
+
+<%@ include file="includes/header.jsp" %>  
+
+<h1>Home Page</h1>
+
+<%@ include file="includes/footer.jsp" %>  
+</body>
+</html>

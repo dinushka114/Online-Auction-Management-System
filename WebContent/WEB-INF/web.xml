@@ -5,8 +5,30 @@
  		<servlet-name>Register</servlet-name>
  		<servlet-class>com.auctionsystem.Register</servlet-class>
  	</servlet>
+ 	<servlet>
+ 		<servlet-name>CheckUserName</servlet-name>
+ 		<servlet-class>com.auctionsystem.CheckUserName</servlet-class>
+ 	</servlet>
+ 	<servlet>
+ 		<servlet-name>Login</servlet-name>
+ 		<servlet-class>com.auctionsystem.Login</servlet-class>
+ 	</servlet>
+ 	<servlet>
+ 		<servlet-name>AddProducts</servlet-name>
+ 		<servlet-class>com.auctionsystem.AddProducts</servlet-class>
+ 	</servlet>
  	<servlet-mapping>
  		<servlet-name>Register</servlet-name>
  		<url-pattern>/register</url-pattern>
  	</servlet-mapping>
+	<jsp-config>
+    <jsp-property-group>
+        <url-pattern>*.jsp</url-pattern>
+        <scripting-invalid>false</scripting-invalid>
+    </jsp-property-group>
+    <jsp-property-group>
+        <url-pattern>*.tag</url-pattern>                
+    	<scripting-invalid>false</scripting-invalid>
+    </jsp-property-group>
+</jsp-config>
 </web-app>
