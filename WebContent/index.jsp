@@ -10,7 +10,7 @@
 
 <%@ include file="includes/header.jsp" %>  
 
-<h1>Home Page</h1>
+<h1>xyzer</h1>
 
 <%@ include file="includes/footer.jsp" %>  
 </body>
