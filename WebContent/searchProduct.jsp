@@ -8,5 +8,11 @@
 </head>
 <body>
 	<h1>Search product</h1>
+	
+	<form action="test" method="post">
+		number : <input type="text" name="number">
+		<input type="submit" value="submit">
+	</form>
+	
 </body>
 </html>
